@@ -1,0 +1,181 @@
+.btn1, .btn2 {
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+  border: 1.5px solid #935347;
+  color: #935347;
+  font-family: OpenSans;
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 30px;
+  width: 140px;
+}
+.btn1 a, .btn2 a {
+  color: #935347;
+}
+.btn1:hover, .btn2:hover {
+  color: #b16a5c;
+  background-color: white;
+}
+.btn1:active, .btn2:active {
+  color: #714036;
+  background-color: #e6e6e6;
+}
+
+.btn2 {
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+  border: 1.5px solid white;
+  color: white;
+  font-family: OpenSans;
+  background-color: #935347;
+}
+.btn2 a {
+  color: white;
+}
+.btn2:hover {
+  color: white;
+  background-color: #b16a5c;
+}
+.btn2:active {
+  color: #e6e6e6;
+  background-color: #714036;
+}
+
+.nav1 {
+  position: fixed;
+  right: 0;
+  left: 0;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+  border: 1.5px solid white;
+  color: white;
+  font-family: OpenSans;
+  background-color: #935347;
+  border: none;
+  background-color: #935347;
+  top: 0;
+  height: 50px;
+  z-index: 1030;
+  margin-bottom: 20px;
+}
+.nav1 a {
+  color: white;
+}
+.nav1:hover {
+  color: white;
+  background-color: #b16a5c;
+}
+.nav1:active {
+  color: #e6e6e6;
+  background-color: #714036;
+}
+.nav1:after {
+  clear: both;
+  content: "";
+}
+.nav1 .container {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  height: 50px;
+  line-height: 20px;
+  margin-left: 37px;
+  margin-right: 37px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 680px) {
+  .nav1 .container {
+    width: 650px;
+  }
+}
+.nav1 .container .header {
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (max-width: 680px) {
+  .nav1 .container .header {
+    width: 100%;
+  }
+}
+.nav1 .container .header .logo {
+  float: left;
+  padding: 15px 15px;
+}
+.nav1 .container .header .menu {
+  float: right;
+  padding: 15px 15px;
+}
+@media screen and (min-width: 680px) {
+  .nav1 .container .header .menu {
+    display: none;
+  }
+}
+.nav1 .container .items {
+  float: left;
+}
+@media screen and (max-width: 680px) {
+  .nav1 .container .items {
+    display: none;
+      .in{display: block;}
+  }
+}
+.nav1 .container .items ul {
+  float: left;
+  list-style-type: none;
+}
+.nav1 .container .items ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+.navdropdown-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.navdropdown-menu li:hover {
+  visibility: visible;
+}
+
+.navdropdown:hover .navdropdown-menu {
+  display: block;
+  color: #935347;
+}
+
+@media screen and (max-width: 680px) {
+  .btn1, .btn2 {
+    width: -webkit-calc(50% - 17px);
+    width: -moz-calc(50% - 17px);
+    width: calc(50% - 17px);
+  }
+
+  .nav1 {
+    border-radius: 0;
+    top: 0;
+    border-width: 0 0 1px;
+  }
+}
+.btnContainer {
+  padding: 5px;
+  text-align: center;
+  width: -webkit-calc(100% - 10px);
+  width: -moz-calc(100% - 10px);
+  width: calc(100% - 10px);
+}
+
+body {
+  margin: 0;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+body a {
+  text-decoration: none;
+}

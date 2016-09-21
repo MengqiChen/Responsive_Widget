@@ -1,0 +1,11 @@
+@import "test";
+
+@mixin aBorder($v1,$v2,$v3) {
+    -moz-border-radius: $v1;
+    -webkit-border-radius: $v1;
+    border-radius: $v1;
+        border: $v2 solid $v3;
+}
+
+button{@include aBorder(3px,1px,#123456);
+background-color:antiquewhite;}
